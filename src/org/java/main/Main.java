@@ -1,12 +1,16 @@
 package org.java.main;
 
+import java.math.BigDecimal;
 import java.text.ParseException;
+import java.time.LocalTime;
 import java.util.Scanner;
+
+import org.java.event.Concerto;
 import org.java.event.Evento;
 
 public class Main {
 	public static void main(String[] args) throws ParseException, Exception {
-
+		//MILESTONE 1-2
 		Scanner sc = new Scanner(System.in);
 		boolean eventoCreato = false;
 		int postiPren;
@@ -61,10 +65,6 @@ public class Main {
 			
 			System.out.println( "posti prenotati: " + ev1.getPostiPren() +
 					"\nposti ancora disponibili: " + ev1.postiRimanenti() );
-			
-			
-			
-			
 		
 		sc.close();
 	}
