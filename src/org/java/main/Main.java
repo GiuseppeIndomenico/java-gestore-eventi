@@ -1,11 +1,8 @@
 package org.java.main;
 
-import java.math.BigDecimal;
 import java.text.ParseException;
-import java.time.LocalTime;
 import java.util.Scanner;
 
-import org.java.event.Concerto;
 import org.java.event.Evento;
 
 public class Main {
